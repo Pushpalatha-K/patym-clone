@@ -2,7 +2,7 @@
 	margin: 0%;
 }
 .navbar{
-	padding: 2%;
+	padding: 1%;
 }
 .navbar a{
 	color: black;
@@ -125,7 +125,7 @@
 	font-size: 17px;
 }
 .downloadapp{
-	width: 50%;
+	width: 55%;
 }
 .walletlogo{
 	display: flex;
@@ -189,8 +189,8 @@
 .div41{
 	background-color: white;
 	margin-top: 4%;
-	margin-right: 4%;
-	padding: 8%;
+	margin-right: 7%;
+	padding: 7%;
 	padding-bottom: 0%;
 }
 .div41 h1{
@@ -255,6 +255,35 @@
 	padding: 2%;
 }
 .div61 a:hover{
+	background-color: #00adf2;
+	border-radius: 15px;
+}
+.sec7{
+	background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
+	background-attachment: fixed;
+	background-color: rgba(239, 239, 239, 0.6);
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: center;
+}
+.sec7{
+	padding: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.invest p{
+	margin-bottom: 8%;
+	font-size: 20px;
+}
+.invest a{
+	background-color: #02386e;
+	text-decoration: none;
+	color: white;
+	border-radius: 25px;
+	width: 35%;
+	padding: 2%;
+}
+.invest a:hover{
 	background-color: #00adf2;
 	border-radius: 15px;
 }
