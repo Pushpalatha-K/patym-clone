@@ -146,10 +146,6 @@
 .div2 p{
 	font-size: 17px;
 }
-.upilogo{
-	display: flex;
-	margin-bottom: 6%;
-}
 .sec5div3{
 	background-color: white;
 	display: flex;
@@ -160,23 +156,23 @@
 }
 .div3 h1{
 	font-size: 30px;
-	margin-bottom: 5%;
-	margin-top: 7%;
-}
-.div3 p{
-	font-size: 15px;
 	margin-bottom: 4%;
 }
+.div3 p{
+	font-size: 17px;
+	margin-bottom: 9%;
+}
 .div3 a{
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 	color: white;
-	background-color: #02386e;
-	border-radius: 25px;
+	background-color: #00bbf2;
+	border-radius: 30px;
 	padding: 2%;
 }
-.div3 a:hover{
-	background-color:  #00bbf2;
+.upilogo{
+	display: flex;
+	margin-bottom: 6%;
 }
 .sec5div4{
 	display: flex;
@@ -259,23 +255,26 @@
 	border-radius: 15px;
 }
 .sec7{
-	background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
-	background-attachment: fixed;
-	background-color: rgba(239, 239, 239, 0.6);
-	background-repeat: no-repeat;
-	background-size: 70%;
-	background-position: center;
+	font-family: 'Poppins', sans-serif;
 }
 .sec7{
-	padding: 3%;
+	background-image: url(https://assetscdn1.paytm.com/frontendcommonweb/69678bc5.png);
+	background-size: 100%;
 	display: flex;
+	padding: 5% 10% 10% 3%;
 	justify-content: space-between;
 }
-.invest p{
+.goals{
+	font-size: 38px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 2%;
+}
+.div7 p{
 	margin-bottom: 8%;
 	font-size: 20px;
 }
-.invest a{
+.div7 a{
 	background-color: #02386e;
 	text-decoration: none;
 	color: white;
@@ -283,7 +282,186 @@
 	width: 35%;
 	padding: 2%;
 }
-.invest a:hover{
+.div7 a:hover{
 	background-color: #00adf2;
 	border-radius: 15px;
+}
+.sec6div{
+	margin-left: 5%;
+	margin-right: 4%;
+	display: flex;
+	justify-content: space-between;
+}
+.sec8{
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Poppins', sans-serif;
+	margin: 7% 0% 7% 5%;
+}
+.heading{
+	font-size: 45px;
+	margin-top: 4%;
+}
+.insurance {
+	font-size: 18px;
+}
+.div8 a{
+	background-color: #02386e;
+	text-decoration: none;
+	color: white;
+	border-radius: 25px;
+	width: 32%;
+	padding: 1%;
+}
+.div8 a:hover{
+	background-color: #00adf2;
+	border-radius: 15px;
+}
+.sec9{
+	font-family: 'Poppins', sans-serif;
+	margin-left: 5%;
+	margin-right: 4%;
+	display: flex;
+	justify-content: space-between;
+}
+.loan{
+	font-size: 38px;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	margin-left: 4%;
+}
+.div9 p{
+	margin-bottom: 8%;
+	font-size: 20px;
+}
+.div9 a{
+	background-color: #02386e;
+	text-decoration: none;
+	color: white;
+	border-radius: 25px;
+	width: 35%;
+	padding: 2%;
+}
+.div9 a:hover{
+	background-color: #00adf2;
+	border-radius: 15px;
+
+
+}
+
+
+@media (max-width: 390px) {
+	.navbar a{
+		font-size: 4px;
+	}
+	#signin img{
+		width: 3%;
+	}
+	.text{
+		font-size: 7px;
+	}
+	.sec2{
+		font-size: 8px;
+	}
+	.heading2{
+		font-size: 15px;
+	}
+	.recharge{
+		font-size: 5px;
+	}
+	.downloadapp{
+		font-size: 5px;
+	}
+	.sec3 h1{
+		font-size: 17px;
+	}
+	.sec3div{
+		text-align: center;
+		flex-direction: column;
+		font-size: 12px;
+		align-items: center;
+
+	}
+	.sec5{
+		flex-direction: column;
+		font-size: 15px;
+	}
+	.sec5div1 h1{
+		font-size: 12px;
+	}
+	.sec5div1 p{
+		font-size: 5px;
+	}
+	.sec5div2{
+		font-size: ;
+	}
+	.div2 p{
+		font-size: 8px;
+	}
+	.sec5div2 h1{
+		font-size: 8px;
+	}
+	.upi{
+		font-size: 6px !important;
+	}
+	.sec5div3 h1{
+		font-size: 14px;
+	}
+	.sec5div3 p{
+		font-size: 8px;
+	}
+	.sec5div3 a{
+		font-size: 6px;
+	}
+	.div41 h1{
+		font-size: 13px;
+	}
+	.div41 p{
+		font-size: 8px;
+	}
+	.div42 h1{
+		font-size: 13px;
+	}
+	.div42 p{
+		font-size: 8px;
+	}
+	.paytm{
+		font-size: 13px;
+	}
+	.bank{
+		font-size: 13px;
+	}
+	.div61 p{
+		font-size: 7px;
+	}
+	.div61 a{
+		font-size: 5px;
+	}
+	.goals{
+		font-size: 13px;
+	}
+	.div7 p{
+		font-size: 5px;
+	}
+	.div7 a{
+		font-size: 5px;
+	}
+	.heading{
+		font-size: 13px;
+	}
+	.insurance{
+		font-size: 7px;
+	}
+	.div8 a{
+		font-size: 6px;
+	}
+	.loan{
+		font-size: 13px;
+	}
+	.div9 p{
+		font-size: 7px;
+	}
+	.more{
+		font-size: 6px ;
+	}
 }
